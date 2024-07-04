@@ -1,0 +1,9 @@
+services:
+  node-export-server:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: node-export-server
+    ports:
+      - "8000:8000"
+    
